@@ -1,0 +1,72 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    text-align: center;
+    background-color: rgb(218, 218, 218);
+  }
+  
+  h2 {
+    background-color: black;
+    text-align: center;
+    color: #fff;
+    height: 5rem;
+    line-height: 5rem;
+    font-size: 3rem;
+  }
+  
+  .game-container {
+    margin-top: 5rem;
+    display: flex;
+    justify-self: start;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+  }
+  
+  .choice {
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    font-size: 3rem;
+    background-color: rgb(187, 54, 109);
+  }
+  
+  .choice:hover {
+    cursor: pointer;
+    border: 4px solid black;
+  }
+  
+  .winnerScores {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
+    font-size: 2rem;
+    margin-top: 5rem;
+  }
+  
+  .my-score {
+    text-align: center;
+    font-size: 3rem;
+  }
+  
+  .comp-score {
+    text-align: center;
+    font-size: 3rem;
+  }
+  
+  #msg {
+    margin-top: 3rem;
+    padding: 1rem;
+    font-size: 2rem;
+    background-color: #000;
+    color: #fff;
+    display: inline-block;
+    border-radius: 1rem;
+    border: 2px solid black;
+  }
+  
+  
